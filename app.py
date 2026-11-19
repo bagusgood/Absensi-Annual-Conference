@@ -23,8 +23,8 @@ EVENT_TIME = "08.00–13.00 WITA"
 EVENT_PLACE = "Merumatta Senggigi Lombok, Pantai Senggigi, Batu Layar, Lombok Barat"
 
 # Ganti ADMIN_PASSWORD sebelum aplikasi dipublikasikan.
-ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "admin")
-ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "GantiPasswordAdmin2026!")
+ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "singosari")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "singoedan")
 SECRET_KEY = os.getenv("SECRET_KEY", "ganti-secret-key-acak-sebelum-deploy")
 ENFORCE_EVENT_DATE = os.getenv("ENFORCE_EVENT_DATE", "0") == "1"
 
